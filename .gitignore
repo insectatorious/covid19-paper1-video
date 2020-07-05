@@ -133,3 +133,5 @@ dmypy.json
 /media/Tex/
 /media/texts/
 partial_movie_files
+
+.idea
