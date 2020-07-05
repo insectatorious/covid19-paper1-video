@@ -12,6 +12,13 @@ Until then, all videos and gifs will live here.
 -----|----
 [Link](media/videos/basket_distributions/1440p60/BasketDistributions.mp4) | [Link](media/gifs/video_optimised.gif)
 
+Video produced using the [`Manim`](https://github.com/3b1b/manim) library made popular by the videos on the YouTube channel [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw).
+
+## Dependencies
+
+Python dependencies are listed under `requirements.txt`.
+Additional requirements like LaTeX and associated packages are to be installed separately (see below).
+
 ### Mac OS 
 
 #### Install LaTeX
@@ -21,6 +28,9 @@ To install the minimal version (using `brew`)
 brew cask install basictex
 ```
 
+Note that LaTeX is only needed when text is used (via `TextMobject`).
+If the video only has shapes then it is not required.
+
 #### Install LaTeX Packages
 ```commandline  
 sudo tlmgr install collection-fontsrecommended standalone preview dsfont doublestroke relsize calligra dvisvgm fontaxes fontawesome lato # collection-fontsextra
@@ -28,7 +38,7 @@ sudo tlmgr install collection-fontsrecommended standalone preview dsfont doubles
 
 If there are issues with the `calligra` package, edit `tex_template.tex` and comment out the line  `\usepackage{calligra}`.
 
-## Create Video
+## Usage
 
 ### Create MP4
 
