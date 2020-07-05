@@ -36,7 +36,7 @@ If the video only has shapes then it is not required.
 sudo tlmgr install collection-fontsrecommended standalone preview dsfont doublestroke relsize calligra dvisvgm fontaxes fontawesome lato # collection-fontsextra
 ```
 
-If there are issues with the `calligra` package, edit `tex_template.tex` and comment out the line  `\usepackage{calligra}`.
+If there are issues with the `calligra` package, edit `tex_template.tex` (located inside `manim` lib) and comment out the line  `\usepackage{calligra}`.
 
 ## Usage
 
