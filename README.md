@@ -42,6 +42,24 @@ If there are issues with the `calligra` package, edit `tex_template.tex` (locate
 
 ### Create MP4
 
+#### Low Quality Render
+This is useful when developing as it is significantly faster than the high quality render (seconds vs minutes). 
+
+```commandline
+manim covid19-paper1-video/basket_distributions.py -apl
+```
+
+#### Render Video Subset
+Also useful when developing as it allows for a quick preview of a subset of all the animations.
+
+```commandline
+manim covid19-paper1-video/basket_distributions.py -apl -n 23,30
+```
+Here the preview only renders animations 23 to 30.
+`-n 23` can also be used to render from animation 23 onward.
+
+#### High Quality Render
+
 ```commandline
 manim covid19-paper1-video/basket_distributions.py -a
 ```
