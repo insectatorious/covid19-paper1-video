@@ -2,7 +2,7 @@
 
 ![video_sample.gif](media/gifs/video_optimised.gif)
 
-This work-in-progress repository contains code to create a series of videos that explain the mathematicall
+This work-in-progress repository contains code to create a series of videos that explain the mathematical
 modelling in our paper [Simulating human interactions in supermarkets to measure the risk of COVID-19 contagion at scale](https://arxiv.org/abs/2006.15213).
 
 The final version will be hosted on YouTube.
