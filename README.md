@@ -80,3 +80,8 @@ In some cases the optimised file can be 20% of the original file size.
 ```commandline
 gifsicle --colour 256 -O3 video.gif -o video_optimised.gif
 ```
+
+## Things to keep in mind
+
+`manim` is not a video editor. [According to Grant himself,](https://www.reddit.com/r/3Blue1Brown/comments/c1omxg/euler_wave_requires_a_lot_more_chiseling_and/ereqrub/) `manim` should only be used for mathematical animations. 
+>  don't try to do everything in manim; use a video editor for as much as possible, and manim for the math things.
