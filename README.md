@@ -76,6 +76,7 @@ ffmpeg -i video.mp4 -vf scale=600:-1 -r 20 -f image2pipe -vcodec ppm - | convert
 
 The GIF may be extremely large and can usually be optimised heavily.
 In some cases the optimised file can be 20% of the original file size. 
+See [this article by David Walsh](https://davidwalsh.name/optimize-gifs) for more details.
  
 ```commandline
 gifsicle --colour 256 -O3 video.gif -o video_optimised.gif
